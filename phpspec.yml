@@ -1,0 +1,9 @@
+---
+suites:
+  default:
+    namespace: Shrikeh\PagerRouter
+    psr4_prefix: Shrikeh\PagerRouter
+    spec_prefix: spec
+    src_path: %paths.config%/src
+    spec_path: %paths.config%
+...

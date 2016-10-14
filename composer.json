@@ -1,0 +1,19 @@
+{
+  "require": {
+    "shrikeh/pagerduty-core": "dev-master",
+    "shrikeh/pagerduty-pimple": "dev-master",
+    "shrikeh/collections": "^1.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^3.1"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Shrikeh\\PagerRouter\\": "src"
+    }
+  }
+}
