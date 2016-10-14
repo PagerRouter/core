@@ -484,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shrikeh-pagerduty/pagerduty-pimple.git",
-                "reference": "d4bb780c8aaaa4aec7f22564d0783e40f804e9eb"
+                "reference": "b79d90656e708d624c7d6c4fd4e2d8570c86d5e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shrikeh-pagerduty/pagerduty-pimple/zipball/d4bb780c8aaaa4aec7f22564d0783e40f804e9eb",
-                "reference": "d4bb780c8aaaa4aec7f22564d0783e40f804e9eb",
+                "url": "https://api.github.com/repos/shrikeh-pagerduty/pagerduty-pimple/zipball/b79d90656e708d624c7d6c4fd4e2d8570c86d5e8",
+                "reference": "b79d90656e708d624c7d6c4fd4e2d8570c86d5e8",
                 "shasum": ""
             },
             "require": {
@@ -519,7 +519,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-10-10 14:20:48"
+            "time": "2016-10-14 08:42:10"
         },
         {
             "name": "webmozart/assert",

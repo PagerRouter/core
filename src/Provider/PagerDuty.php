@@ -3,7 +3,7 @@ namespace Shrikeh\PagerRouter\Provider;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-
+use Shrikeh\PagerRouter\Provider\PagerDuty\Exception\MissingApiKey;
 use Shrikeh\PagerDuty\Pimple\Application;
 
 final class PagerDuty implements ServiceProviderInterface
@@ -27,6 +27,9 @@ final class PagerDuty implements ServiceProviderInterface
 
     private function __construct($apiKey, $containerKey)
     {
+        if ('' === (string) $apiKey) {
+            throw new MissingApiKey('PagerDuty API key cannot be an empty string');
+        }
         $this->apiKey = $apiKey;
         $this->containerKey = (string) $containerKey;
     }
